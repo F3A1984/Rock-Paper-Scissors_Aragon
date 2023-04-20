@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../image/dagat1.jpg);
+    font-family: sans-serif;
+    text-align: center;
+  }
+  h1 {
+    margin-top: 40px;
+  }
+  .choices {
+    margin-top: 20px;
+  }
+  .choice {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 10px;
+  }
+  button {
+    border-radius: 50%;
+    background: lightblue;
+  }
+  button i {
+    color: yellow;
+    font-size: 150px;
+    
+  }
+  .scoreboard {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  #player-score, #computer-score {
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  #result {
+    margin-top: 20px;
+    font-size: 24px;
+  }
